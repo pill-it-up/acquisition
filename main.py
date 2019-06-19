@@ -7,7 +7,7 @@ import logging
 
 logging.basicConfig(
     filename="{}".format(Path.home() / "logs" / "acquisition.log"),
-    format="%(asctime)s == PILLITUP == BACKEND == [%(levelname)-8s] %(message)s",
+    format="%(asctime)s == PILLITUP == ACQUISITION == [%(levelname)-8s] %(message)s",
     level=logging.DEBUG,
 )
 
