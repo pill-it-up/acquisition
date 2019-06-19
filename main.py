@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 import logging
 
 logging.basicConfig(
-    filename="".format(Path("~") / "logs" / "acquisition.log"),
+    filename="{}".format(Path("~") / "logs" / "acquisition.log"),
     format="%(asctime)s == PILLITUP == BACKEND == [%(levelname)-8s] %(message)s",
 )
 
