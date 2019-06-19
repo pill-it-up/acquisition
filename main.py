@@ -15,7 +15,7 @@ logging.basicConfig(
 def get_args():
     parser = ArgumentParser()
     parser.add_argument("pill", help="pill name")
-    # parser.add_argument("amount", help="how many pictures", type=int)
+    parser.add_argument("amount", help="how many pictures", type=int)
 
     return parser.parse_args()
 
