@@ -34,7 +34,7 @@ def main():
 
     pill_dir = dataset_dir / args.pill
 
-    if not dataset_dir.exists():
+    if not pill_dir.exists():
         logging.debug("pill directory doesn't exist, creating...")
         pill_dir.mkdir()
 
